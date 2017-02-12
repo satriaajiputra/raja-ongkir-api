@@ -1,7 +1,7 @@
 # raja-ongkir-api
-Raja Ongkir API Starter - API Starter untuk cek ongkos kirim, dan mendapatkan data provinsi beserta kota
+Raja Ongkir API Starter - API Starter untuk cek ongkos kirim, dan mendapatkan data provinsi beserta kota.
 
-
+Daftar akun RajaOngkir [disini]http://rajaongkir.com/akun/daftar "RajaOngkir")
 
 # Quick Setup
 Contoh penggunaan simpel **raja-ongkir-api** untuk mendapatkan data seluruh provinsi di indonesia
