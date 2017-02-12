@@ -1,12 +1,12 @@
 <?php
 
 /**
-* Cek Ongkir, City, State
+* Cek Ongkir, Kota/Kab, Provinsi
 */
 class RajaOngkir
 {
 	protected $api_key,
-			  $minify = true;
+		  $minify = true;
 
 	/**
 	 *
@@ -14,10 +14,10 @@ class RajaOngkir
 	 * @param string
 	 *
 	 */
-	function __construct($api_key, $minify = false)
+	function __construct($api_key, $minify)
 	{
 		$this->api_key = $api_key;
-		if($minify !== false) {
+		if($minify == false) {
 
 			$this->minify = false;
 
