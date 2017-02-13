@@ -76,7 +76,7 @@ Seperti biasa untuk memulai anda harus melakukan inisialisasi terlebih dahulu te
 * [Seluruh data provinsi](#seluruh-data-provinsi)
 * [Provinsi dengan ID](#provinsi-dengan-id)
 * [Seluruh data kota](#seluruh-data-kota)
-* [Seluruh kota di kabupaten](#seluruh-kota-di-kabupaten)
+* [Seluruh kota di provinsi](#seluruh-kota-di-provinsi)
 * [Kota dengan ID](#kota-dengan-id)
 * [Tracking harga](#tracking-harga)
 
@@ -104,7 +104,7 @@ $init = new RajaOngkir('yourApiKey', true);
 echo $init->getCity(430, false);
 ```
 
-## Seluruh kota di kabupaten
+## Seluruh kota di provinsi
 ```php
 $init = new RajaOngkir('yourApiKey', true);
 echo $init->getCity(false, 9);
