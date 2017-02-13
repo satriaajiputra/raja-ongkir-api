@@ -41,7 +41,7 @@ Hasil dari script di atas adalah seperti ini
 ]
 ```
 
-Jika ingin mendapatkan kode full atau tanpa di minimalize, cukup ganti ```true``` menjadi ```false``` pada saat inisialisasi class.
+Jika ingin mendapatkan kode full atau tanpa di minimalize, cukup ganti ```true``` menjadi ```false``` pada saat inisiasi class.
 Contoh full result seperti berikut
 ```json
 {
@@ -71,7 +71,7 @@ Contoh full result seperti berikut
 ```
 
 # How to use it
-Seperti biasa untuk memulai anda harus melakukan inisialisasi terlebih dahulu terhadap class. Jika sudah berikut beberapa fungsi yang sudah tersedia.
+Seperti biasa untuk memulai anda harus melakukan inisiasi terlebih dahulu terhadap class. Jika sudah berikut beberapa fungsi yang sudah tersedia.
 
 * [Seluruh data provinsi](#seluruh-data-provinsi)
 * [Provinsi dengan ID](#provinsi-dengan-id)
