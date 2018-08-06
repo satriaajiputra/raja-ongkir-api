@@ -164,7 +164,7 @@ class RajaOngkir
 
 		// add custom postfields
 		$curl_set = [
-			CURLOPT_POSTFIELDS => "origin=501&destination=114&weight=1700&courier=jne",
+			CURLOPT_POSTFIELDS => "origin=".$from."&destination=".$to."&weight=".$weight."&courier=".$courier,
 		];
 
 		$data = $this->get($curl_set, "http://api.rajaongkir.com/starter/cost", "POST");
